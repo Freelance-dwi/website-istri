@@ -331,14 +331,6 @@
       text-align: center;
       margin-bottom: 48px;
       position: relative;
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.8s ease;
-    }
-
-    .section-header.visible {
-      opacity: 1;
-      transform: translateY(0);
     }
 
     .section-header::after {
@@ -357,14 +349,6 @@
       border-radius: 16px;
       box-shadow: 0 10px 40px rgba(26, 35, 50, 0.08);
       border-left: 4px solid var(--pink);
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.8s ease 0.2s;
-    }
-
-    .letter-content.visible {
-      opacity: 1;
-      transform: translateY(0);
     }
 
     .letter-text {
@@ -563,8 +547,8 @@
 
     <!-- Letter Section -->
     <section class="letter-section">
-      <h2 class="section-header fade-in">Surat Untukmu</h2>
-      <div class="letter-content fade-in">
+      <h2 class="section-header">Surat Untukmu</h2>
+      <div class="letter-content">
         <p class="letter-text">
           Adek Sayang, Izinkan mamas menyampaikan sesuatu untukmu atas
           kehendak mamas dan segala perjuangan mamas untuk mengerti dirimu
@@ -680,7 +664,7 @@
 
     <!-- Timeline Photo Gallery -->
     <section class="timeline-section">
-      <h2 class="section-header fade-in">Perjalanan Kita</h2>
+      <h2 class="section-header">Perjalanan Kita</h2>
 
 
       <div class="year-block">
